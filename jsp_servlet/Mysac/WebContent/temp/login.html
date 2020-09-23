@@ -5,10 +5,17 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="loginPro.jsp" method="post">
+	<form action="choiceDog" method="post">
 		<label>이름 : </label> <input type="text" name="name" /> <br>
 		<label>아이디 : </label> <input type="text" name="id" /><br>
 		<label>패스워드 : </label> <input type="password" name="pw" /><br>	
+		<hr>
+		<label>좋아하는 강아지는?</label><br>
+		<input type = "checkbox" name = "dog" value = "pu.jpg" />푸들
+		<input type = "checkbox" name = "dog" value = "jin.jpg" />진돗개
+		<input type = "checkbox" name = "dog" value = "pung.jpg" />풍산개
+		<input type = "checkbox" name = "dog" value = "sap.jpg" />삽살개
+		
 		<input type ="submit" value="로그인" />
 		<input type="reset" value="다시" />
 		
