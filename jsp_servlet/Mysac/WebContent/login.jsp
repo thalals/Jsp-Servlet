@@ -1,3 +1,4 @@
+<%-- contentType 156p 어떤 타입으로 결과과 전송되는지 --%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>

@@ -9,6 +9,8 @@
 <%
 	String id = (String)session.getAttribute("id");
 %>
+
+<%-- jsp 주석입니다 --%>
 <body>
 <%
 	if(id == null){
