@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	#forArea{
+		margin : auto;
+		width : 400px;
+		border : 1px solid black;
+	}
+	h1,fieldset {text-align :center;}
+</style>
+</head>
+<body>
+	<section id="formArea">
+	<h1>propery="*"테스트</h1>
+	<form action="beenTest.jsp" method="POST">
+		<fieldset>
+			이름 : <input type = "text" name ="name" id="name"/><br>
+			주소 : <input type = "text" name ="addr" id="addr"/><br>
+			이메일 주소 : <input type = "email" name ="email" id="email"/><br>
+			생년월일 : <input type = "date" name ="birthday" id="birthday"/><br>
+			나이 : <input type = "number" name ="age" id="age"/><br>
+			<input type ="submit" value="전송">
+		</fieldset>
+	</form>
+	</section>
+</body>
+</html>
