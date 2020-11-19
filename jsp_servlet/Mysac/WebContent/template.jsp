@@ -7,7 +7,7 @@
 <head>
 <title>Template Test</title>
 <style>
-	table{
+	#main{
 	    margin : auto;
 		width : 100vw;
 		height : 100vh; 
@@ -17,7 +17,7 @@
 </style>
 </head>
 <body>
-<table>
+<table id = "main" >
 	<tr>
 		<td height="43" colspan=3 align=left>
 			<jsp:include page="top.jsp"/>
