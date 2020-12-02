@@ -1,0 +1,16 @@
+create table FreeBoard(
+	num int not null primary key auto_increment,
+	wrtier varchar(30) not null,
+	email varchar(30),
+	subject varchar(30) not null,
+	passwd varchar(30) not null,
+	reg_data datetime not null,
+	readcount int default 0,
+	context text not null,
+	ip varchar(20) not null,
+	ref int not null,
+	re_step smallint not null,
+	re_level smallint not null
+);
+
+desc FreeBoard;

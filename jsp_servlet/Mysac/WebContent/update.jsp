@@ -92,7 +92,7 @@
 				</tr>
 				<tr>
 					<td colspan="2">
-						<a href="javascript:updateform.submit()">회원정보 수정</a>&nbsp;&nbsp;
+						<a href="javascript:updateProcess.submit()">회원정보 수정</a>&nbsp;&nbsp;
 						<a href="delte.jsp?id=<%=rs.getString("id") %>">회언탈퇴</a>
 					</td>
 				</tr>
